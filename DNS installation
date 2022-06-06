@@ -1,0 +1,8 @@
+Please add your work here
+
+At first we should have Windows server then install DNS role.
+Steps for installation:
+   1.Go to server manager  
+   2.Click "Add and Feature"
+   3.Find DNS role
+   4.Install DNS role 
