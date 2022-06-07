@@ -5,3 +5,36 @@ This section describes a typical DNS configuration example.
 The security appliance allows PC1 within trust zone to access Internet via DNS proxy. The IP address of DNS server in the public network is 202.106.0.20; the IP address of the device's ethernet0/0 interface is 192.168.10.1/24; the IP address of PC1 in the trust zone, which is connected to the above interface, is 192.168.10.3/24; the IP address of ethernet0/1 interface, which is connected to the public network in the untrust zone, is 10.160.65.31/24.
 
 Take the following steps:
+
+Step 1: Configure the interface and enable DNS proxy on ethernet0/0.
+
+On the Navigation pane, click Configure > Network > Network to visit the Network page.
+Select ethernet0/0 from the interface list, and click Edit.
+In the Interface Configuration dialog, configure options as follows:
+Binding type: Layer 3 zone
+Zone: trust
+Type: Static IP
+IP address: 192.168.10.1
+Netmask: 24
+Select the Enable DNS Proxy check box.
+Click OK to save your changes and close the dialog.
+Select ethernet0/1 from the interface list, and click Edit. In the Interface Configuration dialog, configure options as follows:
+Binding type: Layer 3 zone
+Zone: untrust
+Type: Static IP
+IP address: 10.160.65.31
+Netmask: 24
+Click OK to save your changes and close the dialog.
+Step 2: Configure a DNS proxy.
+
+On the Navigation pane, click Configure > Network > Network to visit the Network page.
+On the Task tab in the right auxiliary pane, click DNS.
+On the Server and Proxy tab in the DNS List dialog, click New in DNS Proxy section.
+In the DNS Proxy Configuration dialog, configure options as follows:
+Domain Type: Any domain
+Domain Server: User-defined
+DNS1: 202.106.0.20
+Click OK to save your changes and close the dialog.
+Step 3: On PC1, configure the DNS server's IP address to ethernet0/0 interface's IP address, i.e., 192.168.10.1.
+
+Step 4: ping www.sina.com.cn This address can be resolved on PC1.
