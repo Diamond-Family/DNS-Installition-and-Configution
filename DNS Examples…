@@ -37,6 +37,7 @@ DNS1: 202.106.0.20
 Click OK to save your changes and close the dialog.
 Step 3: On PC1, configure the DNS server's IP address to ethernet0/0 interface's IP address, i.e., 192.168.10.1.
 
+
 Step 4: ping www.sina.com.cn This address can be resolved on PC1.
 
 
@@ -47,4 +48,4 @@ The name server process uses these files to tell the rest of the Internet about 
 
 You have to choose ONE of the first two example files. The first one is to be used if you have BIND version 8 installed. The second one is to be used if you have BIND version 4 installed. The third and following files are common to the two versions, and are all required on your system.
 
-When dealing with DNS files it is crucial that one is EXTREMELY careful when one types. If the example files have a period character (".") at one place, it is imperative that your files have that character in the corresponding place. Likewise, if the files do NOT have have a period character, neither should yours. The placement of special characters might seem random and unmotivated, but they are there to make your unforgiving computer shut up and not complain, and in the long run, that will make life easier for you. :-)
+When dealing with DNS files it is crucial that one is EXTREMELY careful when one types. If the example files have a period character (".") at one place, it is imperative that your files have that character in the corresponding place. Likewise, if the files do NOT have have a period character, neither should yours. The placement of special characters might seem random and unmotivated, but they are there to make your unforgiving computer shut up and not complain, and in the long run, that will make life easier for you.
