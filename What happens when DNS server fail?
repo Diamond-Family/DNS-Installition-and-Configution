@@ -18,3 +18,4 @@ You can tell if your DNS requires flushing if your home device attempts to input
 for the ISP instead of your personal computer. This often results in a failure to establish internet connections.
 If you can’t access the internet, even though its’ available, you should research how to flush your DNS cache. 
 This will likely be the solution to many of your problems.
+end
