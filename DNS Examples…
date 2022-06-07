@@ -37,7 +37,3 @@ DNS1: 202.106.0.20
 Click OK to save your changes and close the dialog.
 Step 3: On PC1, configure the DNS server's IP address to ethernet0/0 interface's IP address, i.e., 192.168.10.1.
 
-
-
-
-1:another on
