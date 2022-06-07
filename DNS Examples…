@@ -1,1 +1,7 @@
 Add your info here
+DNS Configuration Example
+This section describes a typical DNS configuration example.
+
+The security appliance allows PC1 within trust zone to access Internet via DNS proxy. The IP address of DNS server in the public network is 202.106.0.20; the IP address of the device's ethernet0/0 interface is 192.168.10.1/24; the IP address of PC1 in the trust zone, which is connected to the above interface, is 192.168.10.3/24; the IP address of ethernet0/1 interface, which is connected to the public network in the untrust zone, is 10.160.65.31/24.
+
+Take the following steps:
