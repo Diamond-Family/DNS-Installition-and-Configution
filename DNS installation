@@ -6,3 +6,14 @@ Steps for installation:
    2.Click "Add and Feature"
    3.Find DNS role
    4.Install DNS role 
+
+DNS Comfiguration
+At first we should installed DNS role then Configure DNS.
+Steps for Configuration:
+   1.Go to server manager
+   2.Click tools
+   3.Select DNS 
+   4.Click on "zone" and make a "zone" 
+   5.Give "name" and "Ip"
+   6.And save it
+   7.At the end Refresh server
