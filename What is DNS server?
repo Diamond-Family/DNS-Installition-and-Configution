@@ -1,9 +1,0 @@
-Please add your information
-DNS
-DNS (Domain name system) Is a network protocol used to translate hostname into IP address 
-DNS is not required establish a network connection.
-DNS has to step 
- Forward lookup zone: uses the domain name to search for IP address 
-Server.exmple.com
-192.168.23.1
- Revers lookup zone: use IP address to search for the domain name 
