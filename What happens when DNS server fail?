@@ -26,3 +26,7 @@ as well since they were hosting their own mail servers. Needless to say, this in
 now looking out for a better provider.
  
 This can happen to any hosting provider or organization. A failure of the DNS service can trigger a failure of the interconnected parts. Multiple services such as websites, mail servers, proxy servers, etc.
+What will happened in this case?
+ This often results in a failure to  we establish internet connections.
+ 
+Multiple services such as websites, mail servers, proxy servers,as etc. can be affected. 
