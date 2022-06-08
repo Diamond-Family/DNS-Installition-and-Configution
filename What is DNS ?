@@ -1,9 +1,0 @@
-How to work DNS 
-When a client request information from a name server it useully connects to port 53, and then 
-the name server resolves the name requested 
-Lookup request
-Lookup responses 
-Lookup request: sending a request from the DNS client to the DNS server is called a lookup 
-request.
-Lookup response: getting a response from the DNS server to the DNS client is called a lookup 
-response.
